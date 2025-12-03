@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.bg-lamaSky {
+  background-color: #c3ebfa;
+}
+.bg-lamaSkyLight {
+  background-color: #edf9fd;
+}
+.bg-lamaPurple {
+  background-color: #ceceff;
+}
+.bg-lamaPurpleLight {
+  background-color: #f1f0ff;
+}
+.bg-lamaYellow {
+  background-color: #fae27c;
+}
+.bg-lamaYellowLight {
+  background-color: #fefce8;
+}
