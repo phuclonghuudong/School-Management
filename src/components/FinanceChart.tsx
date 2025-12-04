@@ -97,12 +97,12 @@ const FinanceChart = () => {
           <XAxis
             dataKey="name"
             axisLine={false}
-            tick={{ fill: "#d1d5db" }}
+            tick={{ fill: "var(--lama-gray)" }}
             tickMargin={10}
           />
           <YAxis
             axisLine={false}
-            tick={{ fill: "#d1d5db" }}
+            tick={{ fill: "var(--lama-gray)" }}
             tickLine={false}
             tickMargin={20}
           />
@@ -117,13 +117,13 @@ const FinanceChart = () => {
           <Line
             type="monotone"
             dataKey="expense"
-            stroke="#C3EBFA"
+            stroke="var(--lama-sky)"
             strokeWidth={5}
           />
           <Line
             type="monotone"
             dataKey="income"
-            stroke="#CFCEFF"
+            stroke="var(--lama-purple)"
             strokeWidth={5}
           />
         </LineChart>

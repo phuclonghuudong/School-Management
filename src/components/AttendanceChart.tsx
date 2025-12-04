@@ -69,8 +69,16 @@ const AttendanceChart = () => {
           barSize={20}
         >
           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#ddd" />
-          <XAxis dataKey="name" axisLine={false} tick={{ fill: "#d1d5db" }} />
-          <YAxis axisLine={false} tick={{ fill: "#d1d5db" }} tickLine={false} />
+          <XAxis
+            dataKey="name"
+            axisLine={false}
+            tick={{ fill: "var(--lama-gray)" }}
+          />
+          <YAxis
+            axisLine={false}
+            tick={{ fill: "var(--lama-gray)" }}
+            tickLine={false}
+          />
           <Tooltip
             contentStyle={{ borderRadius: "10px", borderColor: "lightgray" }}
           />
@@ -81,13 +89,13 @@ const AttendanceChart = () => {
           />
           <Bar
             dataKey="present"
-            fill="#FAE27C"
+            fill="var(--lama-yellow)"
             legendType="circle"
             radius={[10, 10, 0, 0]}
           />
           <Bar
             dataKey="absent"
-            fill="#C3EBFE"
+            fill="var(--lama-sky)"
             legendType="circle"
             radius={[10, 10, 0, 0]}
           />
