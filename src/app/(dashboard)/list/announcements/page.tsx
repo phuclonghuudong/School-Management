@@ -41,7 +41,7 @@ const EventListPage = () => {
       <td className="flex items-center gap-4 p-4">
         <h3 className="font-semibold">{item.title}</h3>
       </td>
-      <td className="hidden md:table-cell">{item.class}</td>
+      <td>{item.class}</td>
       <td className="hidden md:table-cell">{item.date}</td>
 
       <td>
